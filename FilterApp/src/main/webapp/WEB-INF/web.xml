@@ -1,0 +1,21 @@
+<web-app>
+
+  <filter>
+    <filter-name>DemoFilter</filter-name>
+    <filter-class>in.ineuron.filters.DemoFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>DemoFilter</filter-name>
+    <url-pattern>/test</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <servlet-name>TargetServlet</servlet-name>
+    <servlet-class>in.ineuron.controller.TargetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TargetServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
