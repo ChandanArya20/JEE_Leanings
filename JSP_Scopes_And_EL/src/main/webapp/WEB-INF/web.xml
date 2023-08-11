@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <context-param>
+  	<param-name>user</param-name>
+  	<param-value>root</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>password</param-name>
+  	<param-value>root123</param-value>
+  </context-param>
+</web-app>

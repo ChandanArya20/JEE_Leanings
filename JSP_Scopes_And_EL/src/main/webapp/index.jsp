@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+<%
+	
+	pageContext.setAttribute("p","page");
+	request.setAttribute("r","request");
+	session.setAttribute("s","session");
+	application.setAttribute("a","application");
+	
+	pageContext.forward("disp.jsp");
+	
+%>
